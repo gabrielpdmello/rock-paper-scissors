@@ -1,4 +1,94 @@
-.results span {
-    display: block;
+* {
+  box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+    background-color: rgb(0, 14, 27);
+    color: white;
+    margin: 0;
+    min-height: 100%;
+}
+
+.game-container {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0 2rem 1.5rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.round {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.score-container {
+    font-size: 2rem;
+    flex-basis: 33.33%;
+    text-align: center;
+}
+
+.score {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    flex-grow: 1;
+}
+
+.choice-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.choice {
+    font-size: 5.5rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    flex-basis: 28%;
+}
+
+.game-message {
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.game-result {
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.reset-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 2rem;
+}

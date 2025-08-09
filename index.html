@@ -8,20 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button class="rock">Rock</button>
-    <button class="paper">Paper</button>
-    <button class="scissor">Scissor</button>
-
-    <div class="results">
+    <div class="game-container">
         <span class="round">Round</span>
         
-        <span class="human-score">Player:</span>
-        <span class="computer-score">Computer:</span>
-        <span class="ties">Ties:</span>
-
-        <span class="round-result"></span>
-        <span class="game-result"></span>
+        <span class="scoreboard">
+            <span class="score-container">Player:
+                <span class="score human-score">0</span>
+            </span>
+            <span class="score-container">Ties:
+                <span class="score ties">0</span>
+            </span>
+            <span class="score-container">Computer:
+                <span class="score computer-score">0</span>
+            </span>
+        </span>
         
+        <span class="choice-container">
+            <button class="choice rock" title="rock">&#129704;</button>
+            <button class="choice paper" title="paper">&#128196;</button>
+            <button class="choice scissor" title="scissor">&#9986;</button>
+        </span>
+
+        <span class="game-message">Click to play!</span>
+        <span class="game-result"></span>
+
     </div>
 </body>
 </html>
