@@ -92,3 +92,24 @@ body {
     color: white;
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 62.5rem) {
+    .game-container {
+        width: 75%;
+    }
+
+    html {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .game-container {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    html {
+        font-size: 10px;
+    }
+}
